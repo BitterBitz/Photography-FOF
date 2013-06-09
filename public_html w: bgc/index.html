@@ -12,7 +12,7 @@
 function myFunction(x)
 {
    
- document.body.style.backgroundImage="url('Surf2.jpg')";
+ document.body.style.backgroundImage="url('"+x+"')";
 }
 </script>
     </head>
@@ -69,15 +69,15 @@ div.desc
  <div class="desc">Surf!</div>
 </div>
 <div class="img">
- <a target="_blank" href="Demo Background.jpg"><img src="Demo Background.jpg" alt="Background" width="110" height="90"></a>
+    <a target="_blank"><img src="Demo Background.jpg" alt="Background" width="110" height="90" onclick="myFunction('Demo Background.jpg');"></a>
  <div class="desc">Background</div>
 </div>
 <div class="img">
- <a target="_blank" href="Surfer1.jpg"><img src="Surfer1.jpg" alt="Surfer" width="110" height="90"></a>
+ <a target="_blank" ><img src="Surfer1.jpg" alt="Surfer" width="110" height="90" onclick="myFunction('Surfer1.jpg');"></a>
  <div class="desc">Surfing Surfer!</div>
 </div>
 <div class="img">
- <a target="_blank" href="Surfer Sunset Silhouet.jpeg"><img src="Surfer Sunset Silhouet.jpeg" alt="Sufer Silhouet" width="110" height="90"></a>
+ <a target="_blank" ><img src="Surfer Sunset Silhouet.jpeg" alt="Sufer Silhouet" width="110" height="90" onclick="myFunction('Surfer Sunset Silhouet.jpeg');"></a>
  <div class="desc">Sufer Silhouetted</div>
 </div>
 
